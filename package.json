@@ -1,0 +1,12 @@
+{
+  "name": "termux-webhook-router",
+  "version": "1.0.0",
+  "description": "Webhook router for Termux automation tasks - receives scripts from n8n/AI and queues them for Termux to execute",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
